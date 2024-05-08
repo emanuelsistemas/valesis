@@ -1,30 +1,61 @@
-
-
-
+:root {
+    --colorfundo: #002DBD;
+    --colortxtbranco: #FFFFFF;
+}
 
 /*Inicio Header*/
 
 header {
-    border: 5px dotted black;
-    background-color: #002DBD;
-    color: #FFFFFF;
-    padding: 10px;
-
+    /*border: 3px dotted black;*/
+    background-color: var(--colorfundo);
+    padding: 30px;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    
 
 }
 
-.nav-container #logo {
-    border: 3px dotted black;
+#logo {
+   /*border: 3px dotted yellow;*/
     width: 200px;
     height: auto;
+    margin-left: 20px;
+    
 }
 
-.nav-container {
-    border: 3px dotted black;
+.nav {
+    /*border: 2px dotted black;*/
+    margin-left: 30px;
+    margin-top: 10px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: initial;
+    
+    
+}
+
+
+.nav a {
+    color: var(--colortxtbranco);
+    text-decoration: none;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+    margin-right: 20px;
+    
 
 }
 
-.nav-container > ul {
-    border: 3px dotted yellow;
+.nav > a:hover {
+    color: #9AACE1;
+    transition: .1s;
+   
 
 }
+
+#burger {
+   display: none;
+
+}
+
