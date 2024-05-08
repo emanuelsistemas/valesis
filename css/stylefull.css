@@ -1,0 +1,30 @@
+
+
+
+
+/*Inicio Header*/
+
+header {
+    border: 5px dotted black;
+    background-color: #002DBD;
+    color: #FFFFFF;
+    padding: 10px;
+
+
+}
+
+.nav-container #logo {
+    border: 3px dotted black;
+    width: 200px;
+    height: auto;
+}
+
+.nav-container {
+    border: 3px dotted black;
+
+}
+
+.nav-container > ul {
+    border: 3px dotted yellow;
+
+}
