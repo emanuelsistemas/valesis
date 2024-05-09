@@ -1,5 +1,5 @@
-on: push
-  
+on: 
+  push:
     branches:
       - Develop
 name: 🚀 Deploy website on push
