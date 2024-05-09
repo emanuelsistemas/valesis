@@ -16,4 +16,4 @@ jobs:
         server: ftp.valesis.com.br
         username: valesis@valesis.com.br
         password: Vs949207@#
-        server-dir: /public_html/pallas/
+        
