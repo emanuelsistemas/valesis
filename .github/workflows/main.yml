@@ -1,8 +1,8 @@
 on: 
-  push:
+  push
     branches:
       - main
-name: 🚀 Deploy website on push
+name: 🚀 Deploy website PRoducao
 jobs:
   web-deploy:
     name: 🎉 Deploy
