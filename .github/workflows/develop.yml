@@ -6,11 +6,7 @@ on:
 name: 🚀 Deploy Desenvolvimento
 jobs:
   web-deploy:
-<<<<<<< HEAD
     name: 🎉 Deploy Desenvolvimento
-=======
-    name: 🎉 DDeploy Desenvolvimento
->>>>>>> main
     runs-on: ubuntu-latest
     steps:
     - name: 🚚 Get latest code
