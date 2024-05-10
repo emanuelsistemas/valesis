@@ -12,7 +12,7 @@ jobs:
     - name: 📂 Sync files
       uses: SamKirkland/FTP-Deploy-Action@v4.3.5
       with:
-        server: ftp://valesis.com.br
+        server: valesis.com.br
         username: u164087845
         password: Vs949207@#
         port: 21
