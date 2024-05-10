@@ -28,7 +28,8 @@ header {
 }
 
 #burger {
-    /*border: 2px dotted yellow;*/
+    border: 1px solid #FFFFFF;
+    border-radius: 5px;
     display: block;
     font-size: 40px;
     flex-basis: 40px;  
