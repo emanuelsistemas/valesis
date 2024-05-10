@@ -3,10 +3,10 @@ on:
     branches:
       - Develop
 
-name: 🚀 Deploy website Producao
+name: 🚀 Deploy Desenvolvimento
 jobs:
   web-deploy:
-    name: 🎉 Deploy
+    name: 🎉 DDeploy Desenvolvimento
     runs-on: ubuntu-latest
     steps:
     - name: 🚚 Get latest code
