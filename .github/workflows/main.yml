@@ -15,8 +15,8 @@ jobs:
     - name: 📂 Sync files
       uses: SamKirkland/FTP-Deploy-Action@v4.3.5
       with:
-        server: valesis.com.br
-        username: u164087845
-        password: Vs949207@#
-        port: 21
+        server: ${{ secrets.ftp_host }}
+        username: ${{ secrets.ftp_user }}
+        password: ${{ secrets.ftp_password }}
+        port: ${{ secrets.ftp_port }}
         server-dir: public_html/sistemapallas/
