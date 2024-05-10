@@ -28,7 +28,7 @@ header {
 }
 
 #burger {
-    border: 2px dotted white;
+    border: 2px dotted rgb(1, 0, 3);
     display: block;
     font-size: 40px;
     flex-basis: 40px;  
