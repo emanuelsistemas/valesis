@@ -3,10 +3,10 @@ on:
     branches:
       - main
 
-name: 🚀 Deploy website Producao
+name: 🚀 Deploy Producao
 jobs:
   web-deploy:
-    name: 🎉 Deploy
+    name: 🎉 Deploy Producao
     runs-on: ubuntu-latest
     steps:
     - name: 🚚 Get latest code
