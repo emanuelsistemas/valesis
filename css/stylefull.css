@@ -61,3 +61,40 @@ header {
 
 }
 
+#contatoPrincipal {
+    border: 2px dotted black;
+    background-color: var(--colorfundo);
+    display: flex;
+}
+
+#contatoFormulario {
+    border: 2px dotted black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 30px;
+    
+
+}
+
+#contatoFormulario >h1 {
+    color: white;
+    font-size: 32px;
+    padding-bottom: 30px;
+}
+
+#fotohomen {
+    border: 2px dotted black;
+}
+
+#formulario {
+    border: 2px dotted black;
+}
+
+#inputcontato {
+    border-radius: 50px;
+    border: 1px solid #A9B4C5;
+    height: 40px;
+    width: 200px;
+    text-decoration: none;
+}
